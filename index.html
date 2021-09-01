@@ -43,9 +43,9 @@
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <h2>I'm Vusumuzi Ngcobo, a full-stack Web Developer</h2>
                         <p class="lead mb-5">
-                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+                            I'm a Web Developer currently based in Kimberley, South Africa and I have been building projects for some time now - which are mainly C# based.
                             <a href="https://unsplash.com/">Unsplash</a>
                             !
                         </p>
@@ -134,8 +134,8 @@
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                    <div class="h2">Fizz And The Buzz</div>
+                                    <p class="mb-0">A coding challenge to build a JavaScript App which prints numbers 1 to 100.</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="/img/assets/portfolio-3.jpg" alt="..." />
@@ -145,8 +145,10 @@
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                    <div class="h2">Palindroming</div>
+                                    <p class="mb-0">
+                                        A coding challenge to build a Javascript app which checks if a word is a palindrome.
+                                    </p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="/img/assets/portfolio-4.jpg" alt="..." />
@@ -164,11 +166,50 @@
             </div>
         </section>
         <!-- Form-->
-        <Form name="contact" data-netlify="true" data-netlify-recaptcha="true" class="contact-form" id="contact-form">
-            <div class="row">
-               
-            </div>
-        </Form>
+        <div class="container col-xxl-8 px-4 py-5">
+            <h1 class="text-center mb-3">Contact Me</h1>
+            <form name="ToDo-contactForm" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">First Name</label>
+                        <input type="text" name="firstName" class="form-control" placeholder="First name"
+                            aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" name="lastName" class="form-control" placeholder="Last name"
+                            aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Email"
+                            aria-label="Email" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Phone (optional)</label>
+                        <input type="text" name="phone" class="form-control" placeholder="Phone"
+                            aria-label="Phone">
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Subject</label>
+                        <input type="text" name="subject" class="form-control" placeholder="Subject"
+                            aria-label="Subject" required>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Message</label>
+                        <textarea type="text" name="message" class="form-control" placeholder="Message"
+                            aria-label="Message" required></textarea>
+                    </div>
+                </div>
+                <div data-netlify-recaptcha="true"></div>
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+            </form>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
